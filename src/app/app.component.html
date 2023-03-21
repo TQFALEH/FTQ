@@ -3,7 +3,7 @@
     class="main d-flex flex-wrap justify-content-center align-items-center position-absolute"
     style="background-color: #383045"
   >
-    <div routerLink="user" class="icon">
+    <div routerLinkActive="user" class="icon">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"
@@ -121,15 +121,15 @@
     bottom: 11px;
   }
   @keyframes example {
-  from {bottom: 45rem;}
-  to {bottom: 11px;}
+  80% {bottom: 45rem;background-color: #38304552;}
+  100% {bottom: 11px;background-color: #383045}
 }
 
 /* The element to apply the animation to */
 .main {
 
   animation-name: example;
-  animation-duration: 1.2s;
+  animation-duration: 1.5s;
 }
 </style>
 <router-outlet></router-outlet>
