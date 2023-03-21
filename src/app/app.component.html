@@ -26,7 +26,7 @@
   </nav>
   <div>
     <div  >
-        <app-user *ngFor="let user of users" [user]="user"></app-user>
+        <app-user *ngFor="let user of users let i= index;" [user]="user"></app-user>
     </div>
   </div>
 </div>
@@ -35,7 +35,7 @@
 <div class="px-3 justify-content-center d-flex">
   <div
     class="main fixed-bottom d-flex flex-wrap justify-content-center align-items-cente"
-    style="background-color: #383045"
+
   >
     <div routerLink="user" routerLinkActive="active" class="icon">
       <svg
