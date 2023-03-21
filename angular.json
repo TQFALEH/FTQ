@@ -91,8 +91,19 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/suger-moger",
+            "netlifyToken": "TooefdAJ6bJlceFrk7r6opjED34s93NNO0d0D4W8Jbk",
+            "siteId": ""
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

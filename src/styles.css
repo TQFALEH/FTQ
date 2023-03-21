@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+body
+{
+  overflow: hidden;
+  background-color: #18152d;
+  height: 100%;
+}
+
+:root{
+  --main: #383045;
+  --two:#f8714c;
+  --three:#848190;
+}
