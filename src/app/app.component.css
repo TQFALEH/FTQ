@@ -35,10 +35,10 @@ svg {
   padding: 19px;
   bottom: 17px;
 }
-@keyframes example {
+/* @keyframes example {
 80% {bottom: 45rem;background-color: #38304552;}
 100% {bottom: 14px;background-color: #383044}
-}
+} */
 
 /* The element to apply the animation to */
 .main {
