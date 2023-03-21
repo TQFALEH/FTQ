@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+var particlesJS: any;
 
 @Component({
   selector: 'app-root',
@@ -8,5 +9,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'sugerMoger';
+
+
 
 }

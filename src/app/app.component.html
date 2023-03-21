@@ -1,9 +1,15 @@
-<div class="px-3 justify-content-center d-flex">
+
+
+
+
+
+<!-- //nav bar  -->
+<div  class="px-3 justify-content-center d-flex">
   <div
     class="main d-flex flex-wrap justify-content-center align-items-center position-absolute"
     style="background-color: #383045"
   >
-    <div routerLinkActive="user" class="icon">
+    <div routerLink="user" routerLinkActive="active" class="icon">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"
@@ -21,7 +27,7 @@
         />
       </svg>
     </div>
-    <div class="icon">
+    <div  routerLink="/ackjf" routerLinkActive="active" class="icon">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"
@@ -35,7 +41,7 @@
         />
       </svg>
     </div>
-    <div class="icon active">
+    <div routerLink="" routerLinkActive="active" class="icon ">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"
@@ -82,54 +88,6 @@
     </div>
   </div>
 </div>
-<style>
-  .icon {
-    color: #848190;
-    border-radius: 18px;
-    padding: 1rem 1.5rem;
-    border-radius: 18px;
-    cursor: pointer;
-    width: fit-content;
-  }
-  .icon:hover {
-    background-color: #f8714c;
-    color: aliceblue;
-    transform: scale(0.9, 0.9);
-    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
-  }
-  .active {
-    background-color: #f8714c;
-    color: aliceblue;
-    transform: scale(0.9, 0.9);
-    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
-  }
-  svg {
-    height: 24px;
-    width: 24px;
-  }
 
-  .icon:hover svg {
-    color: aliceblue;
-    fill: aliceblue;
-    transition: all ease-in-out 0.4s;
-    transform: scale(1, 1);
-    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
-  }
-  .main {
-    border-radius: 29px;
-    padding: 19px;
-    bottom: 15px;
-  }
-  @keyframes example {
-  80% {bottom: 45rem;background-color: #38304552;}
-  100% {bottom: 14px;background-color: #383044}
-}
 
-/* The element to apply the animation to */
-.main {
-
-  animation-name: example;
-  animation-duration: 1.5s;
-}
-</style>
 <router-outlet></router-outlet>
