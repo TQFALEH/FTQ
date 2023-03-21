@@ -1,34 +1,38 @@
 <div class="container">
   <div>
     <div
-      class="main row m-2 rounded-4 p-5 shadow-lg "
-      style="background-color: #ccc9c993"  >
+      class="main row m-2 rounded-4 p-5 shadow-lg"
+      style="background-color: #ccc9c993"
+    >
       <div class="col">
         <img
           class="img-fluid shadow-lg rounded-4"
-          src="https://preview.redd.it/friends-cast-as-pixar-characters-v0-4kv5fjdsg0ka1.png?width=640&crop=smart&auto=webp&s=1d6e87b696b3556ec12aff2726503b9d3205f1e9"
+          src="{{ user.profileImage }}"
         />
       </div>
 
       <div
-      class="col-md-8 col-sm-12 d-flex rounded-4 flex-column justify-content-center   align-items-center"
-
+        class="col-md-8 col-sm-12 d-flex rounded-4 flex-column justify-content-center align-items-center"
       >
-      <h1 class="text-light-emphasis text-center fs-3 lead my-2">طارق</h1>
-        <div class="profile-numbers d-flex pt-3  w-100 ">
-          <div class="col-4 d-flex flex-column  align-items-center">
-            <p class="fw-medium text-dark-emphasis lead">139</p>
-            <p class="content-text text-center">عدد  الوجبات</p>
+        <h1 class="text-light-emphasis text-center fs-3 lead my-2">
+          {{ user.name }}
+        </h1>
+        <div class="profile-numbers d-flex pt-3 w-100">
+          <div class="col-4 d-flex flex-column align-items-center">
+            <p class="fw-medium text-dark-emphasis lead">{{ user.meals }}</p>
+            <p class="content-text text-center">عدد الوجبات</p>
           </div>
           <div>|</div>
           <div class="col-4 d-flex flex-column align-items-center">
-            <p class="fw-medium text-dark-emphasis lead">7.2</p>
-            <p class="content-text text-center">  التراكمي </p>
+            <p class="fw-medium text-dark-emphasis lead">{{ user.hb1ac }}</p>
+            <p class="content-text text-center">التراكمي</p>
           </div>
-         <div>|</div>
+          <div>|</div>
           <div class="col-4 d-flex flex-column align-items-center">
-            <p class="fw-medium text-dark-emphasis lead">10</p>
-            <p class="content-text text-center ">معامل الكارب</p>
+            <p class="fw-medium text-dark-emphasis lead">
+              {{ user.carbRatio }}
+            </p>
+            <p class="content-text text-center">معامل الكارب</p>
           </div>
         </div>
       </div>
@@ -36,7 +40,6 @@
   </div>
 </div>
 <style>
- 
   :root {
     --main: #383045;
     --two: #f8714c;
@@ -46,11 +49,11 @@
     margin-top: -15px;
     color: #cacace;
     background-color: var(--two);
-     padding: 2px 4px ;
-     border-radius: 10px;
-     font-size: small;
+    padding: 2px 4px;
+    border-radius: 10px;
+    font-size: 10px;
   }
-  .lead{
+  .lead {
     color: #383045;
   }
 </style>

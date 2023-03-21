@@ -24,12 +24,19 @@
       </a>
     </div>
   </nav>
+  <div>
+    <div  *ngFor="let user of users; let i = index">
+      <div class="col-sm-12 col-md-6 mb-5">
+        <app-user [user]="users[i]"></app-user>
+      </div>
+    </div>
+  </div>
 </div>
 
 <!-- //nav bar  -->
 <div class="px-3 justify-content-center d-flex">
   <div
-    class="main d-flex flex-wrap justify-content-center align-items-center position-absolute"
+    class="main fixed-bottom d-flex flex-wrap justify-content-center align-items-cente"
     style="background-color: #383045"
   >
     <div routerLink="user" routerLinkActive="active" class="icon">

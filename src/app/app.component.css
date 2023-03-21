@@ -31,14 +31,15 @@ svg {
   transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
 }
 .main {
-  border-radius: 29px;
-  padding: 19px;
-  bottom: 17px;
+  border-radius: 0;
+   padding: 2px; 
+  bottom: 0px;
+
 }
 @keyframes example {
 80% {bottom: 45rem;background-color: #383045d6;}
 100% {bottom: 14px;background-color: #383044}
-} 
+}
 
 
 .main {
