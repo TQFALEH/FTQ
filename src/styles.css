@@ -2,11 +2,11 @@
 * {
   font-family: 'Bitter', serif;
   font-family: 'Cairo', sans-serif;
-  font-family: 'Martian Mono', monospace;
+ 
 }
 body {
   overflow: hidden;
-  background-color: #18152d;
+  background-color: #cacace;
   height: 100%;
 }
 
