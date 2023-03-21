@@ -1,9 +1,9 @@
 <div class="px-3 justify-content-center d-flex">
   <div
     class="main d-flex flex-wrap justify-content-center align-items-center position-absolute"
-    style="background-color: #383045;"
+    style="background-color: #383045"
   >
-    <div routerLink="user" class="icon active">
+    <div routerLink="user" class="icon">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"
@@ -35,7 +35,7 @@
         />
       </svg>
     </div>
-    <div class="icon">
+    <div class="icon active">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"
@@ -97,7 +97,12 @@
     transform: scale(0.9, 0.9);
     transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
   }
-
+  .active {
+    background-color: #f8714c;
+    color: aliceblue;
+    transform: scale(0.9, 0.9);
+    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
+  }
   svg {
     height: 24px;
     width: 24px;
@@ -111,9 +116,20 @@
     transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
   }
   .main {
-   border-radius:  29px;
+    border-radius: 29px;
     padding: 19px;
     bottom: 11px;
   }
+  @keyframes example {
+  from {bottom: 45rem;}
+  to {bottom: 11px;}
+}
+
+/* The element to apply the animation to */
+.main {
+
+  animation-name: example;
+  animation-duration: 1.2s;
+}
 </style>
 <router-outlet></router-outlet>
