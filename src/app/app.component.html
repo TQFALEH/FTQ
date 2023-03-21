@@ -1,7 +1,7 @@
-<div class="container">
-  <nav class="navbar mb-2">
+<div class="">
+  <nav class="navbar mb-2" style="background-color: #f8714c;">
     <div class="container-fluid">
-      <a class="navbar-brand" style="color: #383045" href="#">
+      <a class="navbar-brand" style="color: aliceblue" href="#">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
           <path
             fill="none"
@@ -25,10 +25,8 @@
     </div>
   </nav>
   <div>
-    <div  *ngFor="let user of users; let i = index">
-      <div class="col-sm-12 col-md-6 mb-5">
-        <app-user [user]="users[i]"></app-user>
-      </div>
+    <div  >
+        <app-user *ngFor="let user of users" [user]="user"></app-user>
     </div>
   </div>
 </div>

@@ -6,12 +6,7 @@
   cursor: pointer;
   width: fit-content;
 }
-.icon:hover {
-  background-color: #f8714c;
-  color: aliceblue;
-  transform: scale(0.9, 0.9);
-  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
-}
+
 .active {
   background-color: #f8714c;
   color: aliceblue;
@@ -32,7 +27,7 @@ svg {
 }
 .main {
   border-radius: 0;
-   padding: 2px; 
+   padding: 2px;
   bottom: 0px;
 
 }
