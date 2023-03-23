@@ -1,0 +1,39 @@
+h1 {
+  color: #1a5df8;
+}
+:root {
+  --main: #383045;
+  --two: #f8714c;
+  --three: #848190;
+}
+.profile-img {
+  position: absolute;
+  top: -34px;
+  border-color: #1a5df8;
+}
+img {
+  border: #1a5df8df 5px solid;
+  border-bottom: 0;
+  border-right: 0;
+
+}
+
+.content-text {
+  margin-top: -15px;
+  color: #ceced3;
+  background-color: #4a6ec2;
+  padding: 3px 5px;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+.col-4:hover {
+  transform: scale(1.1, 1.1);
+  transition: all ease-in 0.3s;
+}
+.username{
+font-size: 15px;
+}
+.lead {
+  color: #383045;
+}

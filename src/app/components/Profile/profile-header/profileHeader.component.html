@@ -1,0 +1,36 @@
+<div class="container">
+ <ng-container>
+   <div class="main bg row rounded-4 bobob px-4" style="padding: 2rem !important">
+     <div
+       class="col-12 shadow-lg d-flex position-relative rounded-4 flex-column justify-content-center align-items-center">
+       <h1 style="color: #4a6ec2" class="text-center fw-normal fs-3 lead mt-5">
+         {{ profile[0].name }}
+       </h1>
+       <p class="lead text-light-emphasis username">@Rescco</p>
+       <div class="profile?-numbers d-flex pt-3 w-100">
+         <div class="col-4 d-flex flex-column align-items-center">
+           <p class="fw-medium data text-dark-emphasis lead">{{ profile[0].meals }}</p>
+           <p class="content-text text-center">عدد الوجبات</p>
+         </div>
+         <div>|</div>
+         <div class="col-4 d-flex flex-column align-items-center">
+           <p class="fw-medium data text-dark-emphasis lead">{{ profile[0].hb1ac }}</p>
+           <p class="content-text text-center">التراكمي</p>
+         </div>
+         <div>|</div>
+         <div class="col-4 d-flex flex-column align-items-center">
+           <p class="fw-medium data text-dark-emphasis lead">
+             {{ profile[0].carbRatio }}
+           </p>
+           <p class="content-text text-center">معامل الكارب</p>
+         </div>
+       </div>
+       <div class="profile-img">
+         <img style="max-width: 80px" class="img-fluid shadow-lg rounded-pill border-x" src="{{ profile[0].profileImage }}" />
+       </div>
+     </div>
+   </div>
+ </ng-container>
+
+</div>
+
