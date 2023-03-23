@@ -3,7 +3,7 @@ import { Profile } from 'src/app/interfaces/profile.interface';
 
 
 @Component({
-  selector: 'app-profileHeader',
+  selector: 'app-profile-header',
   templateUrl: './profileHeader.component.html',
   styleUrls: ['./profileHeader.component.css']
 })
