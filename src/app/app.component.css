@@ -9,7 +9,7 @@
 
 .active {
   background-color: #FBFBF2;
-  color: #519872;
+  color: #1a5df8df;
   transform: scale(0.9, 0.9);
   transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
 }
@@ -19,11 +19,12 @@ svg {
 }
 
 .icon:hover svg {
-  color: aliceblue;
-  fill: aliceblue;
+  color: #e3e3e3df;
+  fill: #bbbbbbdf;
   transition: all ease-in-out 0.4s;
   transform: scale(1, 1);
-  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
+  transform: rotate(360deg);
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.8s;
 }
 .main {
   border-radius: 0;
@@ -36,5 +37,5 @@ svg {
 .main {
 animation-name: example;
 animation-duration: 1.5s;
-  background-color: #519872;
+  background-color: #1a5df8df
 }
