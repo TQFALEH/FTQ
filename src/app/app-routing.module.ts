@@ -4,6 +4,7 @@ import { UserComponent } from './components/Profile/profile-header/profileHeader
 import { AppComponent } from './app.component';
 
 const routes: Routes = [
+  {path:'',redirectTo:'AppComponent',pathMatch:'full'},
   { path: 'profile', component: UserComponent }];
 
 @NgModule({
