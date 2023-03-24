@@ -9,13 +9,12 @@ import { Profile } from 'src/app/interfaces/profile.interface';
 })
 
 export class UserComponent {
-  // the profile will recive from parent array [name-hb1ac meals-carbRatio-profileImage-]
-profile:Profile [] =[{
+  // The profile will recive from parent array [name-hb1ac meals-carbRatio-profileImage-]
+  profile: Profile[] = [{
     name: 'طارق',
     hb1ac: 8,
-    meals: 411,
+    meals: 41,
     carbRatio: 14,
-    profileImage: 'https://pbs.twimg.com/media/FlHSUweXgAEtWX7.jpg',}
-
-]
+    profileImage: 'https://pbs.twimg.com/media/FlHSUweXgAEtWX7.jpg'
+  }]
 }

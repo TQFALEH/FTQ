@@ -1,12 +1,21 @@
 .box {
-    background-color: #cacace;
+    background-color: var(--three);
+    color: #5451d6;
+}
+
+
+
+:root {
+    --main: #412da8;
+    --two: #5451d6;
+    --three: #dbe9f6;
 }
 
 .logo {
-    background-color: #d2d2d4;
+    background-color: #5451d6;
     padding: 10px 13px;
 }
 
 svg {
-    color: rgb(0, 0, 0);
+    color: rgb(252, 252, 252);
 }
