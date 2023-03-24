@@ -1,17 +1,15 @@
 .icon {
-  color: #FBFBF2;
+  color: #5451d6;
   border-radius: 18px;
   padding: 1rem 1.5rem;
   border-radius: 18px;
   cursor: pointer;
   width: fit-content;
 }
-
-.active {
-  background-color: #FBFBF2;
-  color: #1a5df8df;
-  transform: scale(0.9, 0.9);
-  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
+:root {
+  --main: #412da8;
+  --two: #5451d6;
+  --three: #dbe9f6;
 }
 
 svg {
@@ -20,8 +18,49 @@ svg {
 }
 
 .icon:hover svg {
-  color: #e3e3e3df;
-  fill: #bbbbbbdf;
+  transition: all ease-in-out 0.4s;
+  transform: scale(1, 1);
+  transform: rotate(360deg);
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.8s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -webkit-transition: all ease-in-out 0.4s;
+  -moz-transition: all ease-in-out 0.4s;
+  -ms-transition: all ease-in-out 0.4s;
+  -o-transition: all ease-in-out 0.4s;
+}
+
+
+
+.main {
+  border-radius: 0;
+  padding: 2px;
+  bottom: 0px;
+  animation-name: example;
+  animation-duration: 1.5s;
+  border-radius: 0;
+  padding: 2px;
+  bottom: 0px;
+  animation-name: example;
+  animation-duration: 1.5s;
+  
+}
+
+
+.active {
+  background-color: #5451d6;
+  color: #dbe9f6;
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
+  -webkit-transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
+  -moz-transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
+  -ms-transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
+  -o-transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
+}
+
+.icon:hover svg {
+
   transition: all ease-in-out 0.4s;
   transform: scale(1, 1);
   transform: rotate(360deg);
@@ -32,57 +71,4 @@ svg {
   -o-transform: rotate(360deg);
 }
 
-.main {
-  border-radius: 0;
-  padding: 2px;
-  bottom: 0px;
 
-}
-
-
-.main {
-  animation-name: example;
-  animation-duration: 1.5s;
-  background-color: #1a5df8df
-}
-
-
-
-.active {
-  background-color: #FBFBF2;
-  color: #1a5df8df;
-  transform: scale(0.9, 0.9);
-  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
-}
-
-svg {
-  height: 24px;
-  width: 24px;
-}
-
-.icon:hover svg {
-  color: #e3e3e3df;
-  fill: #bbbbbbdf;
-  transition: all ease-in-out 0.4s;
-  transform: scale(1, 1);
-  transform: rotate(360deg);
-  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.8s;
-  -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-}
-
-.main {
-  border-radius: 0;
-  padding: 2px;
-  bottom: 0px;
-
-}
-
-
-.main {
-  animation-name: example;
-  animation-duration: 1.5s;
-  background-color: #1a5df8df
-}

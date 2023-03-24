@@ -1,39 +1,55 @@
 h1 {
-  color: #1a5df8;
+    color: #dbe9f6;
 }
-:root {
-  --main: #383045;
-  --two: #f8714c;
-  --three: #848190;
-}
-.profile-img {
-  position: absolute;
-  top: -34px;
-  border-color: #1a5df8;
-}
-img {
-  border: #1a5df8df 5px solid;
-  border-bottom: 0;
-  border-right: 0;
 
+:root {
+    --main: #412da8;
+    --two: #5451d6;
+    --three: #dbe9f6;
+}
+
+.data
+ {
+    color: #dbe9f6;
+}
+
+.profile-img {
+    position: absolute;
+    top: -34px;
+    border-color: #dbe9f6;
+}
+
+img {
+    border: #dbe9f6 5px solid;
+    border-bottom: 0;
+    border-right: 0;
+
+}
+
+.profile-box {
+    background-color: #5451d6;
+    color: #ceced3;
 }
 
 .content-text {
-  margin-top: -15px;
-  color: #ceced3;
-  background-color: #4a6ec2;
-  padding: 3px 5px;
-  border-radius: 10px;
-  font-size: 10px;
+    margin-top: -15px;
+    color: #412da8;
+    background-color: #dbe9f6;
+    padding: 3px 5px;
+    border-radius: 10px;
+    font-size: 10px;
 }
 
 .col-4:hover {
-  transform: scale(1.1, 1.1);
-  transition: all ease-in 0.3s;
+    transform: scale(1.1, 1.1);
+    transition: all ease-in 0.3s;
 }
-.username{
-font-size: 15px;
+
+.username {
+    font-size: 15px;
+    color: #dbe9f6;
 }
+
 .lead {
-  color: #383045;
+    color: #dbe9f6
 }
