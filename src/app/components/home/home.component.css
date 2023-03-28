@@ -9,27 +9,32 @@
 }
 
 .brand-name {
-font-size: 34px;
-font-weight: 600;
-color: #5451d6;
+  font-size: 34px;
+  font-weight: 600;
+  color: #5451d6;
 }
-.col-12{
+
+.col-12 {
   display: flex;
   justify-content: center;
 
 }
+
 p {
   color: #5451d6;
 }
-span{
- color: #412da8;
+
+span {
+  color: #412da8;
 }
-button{
+
+button {
+  margin-top: 1.2rem;
   background-color: #412da8;
   color: #dbe9f6;
-  padding: 9px  2rem;
+  padding: 9px 2rem;
   bottom: 15rem;
-  border:none;
+  border: none;
   border-radius: 9px;
   width: 200px;
   height: 50px;
@@ -38,6 +43,7 @@ button{
   -ms-border-radius: 9px;
   -o-border-radius: 9px;
 }
+
 .main-home {
   height: 100vh;
   background-color: #dbe9f6;
