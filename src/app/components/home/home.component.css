@@ -13,7 +13,11 @@ font-size: 34px;
 font-weight: 600;
 color: #5451d6;
 }
+.col-12{
+  display: flex;
+  justify-content: center;
 
+}
 p {
   color: #5451d6;
 }
@@ -26,6 +30,14 @@ button{
   padding: 9px  2rem;
   position: absolute;
   bottom: 6rem;
+  border:none;
+  border-radius: 9px;
+  width: 200px;
+  height: 50px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
 }
 .main-home {
   height: 100vh;
