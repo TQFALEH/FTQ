@@ -20,8 +20,16 @@
 
 }
 
+h1 {
+  margin-top: 2px;
+  color: #412da8;
+  font-size: 51px;
+  font-weight: 900;
+}
+
 p {
-  color: #5451d6;
+  color: #4a4a4ad1;
+  font-size: 16px;
 }
 
 span {
@@ -36,7 +44,7 @@ button {
   bottom: 15rem;
   border: none;
   border-radius: 9px;
-  width: 200px;
+  width: 250px;
   height: 50px;
   -webkit-border-radius: 9px;
   -moz-border-radius: 9px;
