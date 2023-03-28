@@ -1,18 +1,34 @@
-:root
-{
+:root {
   --main: #412da8;
   --two: #5451d6;
   --three: #dbe9f6;
 }
 
-
 * {
-  height: 100vh;
-  z-index: 1000;
-
+  overflow: hidden;
 }
-.main-home{
 
+.brand-name {
+font-size: 34px;
+font-weight: 600;
+color: #5451d6;
+}
+
+p {
+  color: #5451d6;
+}
+span{
+ color: #412da8;
+}
+button{
+  background-color: #412da8;
+  color: #dbe9f6;
+  padding: 9px  2rem;
+  position: absolute;
+  bottom: 6rem;
+}
+.main-home {
+  height: 100vh;
   background-color: #dbe9f6;
-
+  position: relative;
 }
