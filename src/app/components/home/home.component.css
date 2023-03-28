@@ -55,13 +55,12 @@ button {
 .main-home {
   overflow: hidden;
   overflow-y: hidden;
+  overflow: hidden;
+  position: fixed;
 
   height:80vh;
   background-color: #e0e9f1;
   position: relative;
   scroll-behavior: smooth;
 }
-*{
-  overflow: hidden;
-  overflow-y: hidden;
-}
+
