@@ -34,7 +34,7 @@
         <p>سكرة تقدم لك الاسهل لتنظيم مستوى سكرك بالدم ياسكر </p>
       </div>
     </div>
-    <div class="col-12"> <button class=""> ابدأ التجربة</button></div>
+    <div class="col-12"> <button class="" (click)="toNext()" routerLink="profile"> ابدأ التجربة</button></div>
   </div>
   <div  class="footer position-absolute" style="bottom: 0;">
     <p class="text-center "> صنع للسكريين بأيدي <svg fill="#412da8" height="48" viewBox="0 0 48 48" width="30"
@@ -57,3 +57,4 @@
       </svg><span class="">سكرية</span></p>
     </div>
 </div>
+<router-outlet></router-outlet>
