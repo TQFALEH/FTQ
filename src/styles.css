@@ -1,17 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
-* {
+*
+{
   font-family: 'Bitter', serif;
   font-family: 'Cairo', sans-serif;
-
 }
-body {
+
+body
+{
   overflow-x: hidden;
   background-color: #dbe9f6;
   height: 100vh;
 }
 
-:root {
-  --main: #412da8;
-  --two: #5451d6;
-  --three: #dbe9f6;
-}

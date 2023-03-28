@@ -1,7 +1,7 @@
 export interface Profile {
- name ?:string ;
-  hb1ac?:number;
-  meals?:number;
-  carbRatio?:number;
-  profileImage?:string;
+  name?: string;
+  hbA1C?: number;
+  meals?: number;
+  carbRatio?: number;
+  profileImage?: string;
 }

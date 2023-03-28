@@ -1,0 +1,18 @@
+:root
+{
+  --main: #412da8;
+  --two: #5451d6;
+  --three: #dbe9f6;
+}
+
+
+* {
+  height: 100vh;
+  z-index: 1000;
+
+}
+.main-home{
+
+  background-color: #dbe9f6;
+
+}

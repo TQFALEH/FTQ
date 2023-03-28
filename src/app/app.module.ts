@@ -6,6 +6,7 @@ import { UserComponent } from './components/Profile/profile-header/profileHeader
 import { ProfileFooterComponent } from './components/Profile/profileFooter/profile-footer.component';
 import { ProfileComponent } from './components/Profile/profile.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     UserComponent,
     ProfileFooterComponent,
     ProfileComponent,
-    NavbarComponent
+    NavbarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
