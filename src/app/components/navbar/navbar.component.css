@@ -1,5 +1,5 @@
 .icon {
-  color: #5451d6;
+  color: #412da8;
   border-radius: 18px;
   padding: 1rem 1.5rem;
   border-radius: 18px;
@@ -18,7 +18,7 @@ svg {
 }
 
 .icon:hover svg {
-  transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.5s;
   transform: scale(1, 1);
   transform: rotate(360deg);
   transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.8s;
@@ -26,13 +26,26 @@ svg {
   -moz-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   -o-transform: rotate(360deg);
-  -webkit-transition: all ease-in-out 0.4s;
-  -moz-transition: all ease-in-out 0.4s;
-  -ms-transition: all ease-in-out 0.4s;
-  -o-transition: all ease-in-out 0.4s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
 }
 
-
+.icon:active svg {
+  transition: all ease-in-out 0.5s;
+  transform: scale(1, 1);
+  transform: rotate(360deg);
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.8s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -webkit-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+}
 
 .main {
   border-radius: 0;
@@ -45,12 +58,12 @@ svg {
   bottom: 0px;
   animation-name: example;
   animation-duration: 1.5s;
-  
+
 }
 
 
 .active {
-  background-color: #5451d6;
+  background-color: #412da8;
   color: #dbe9f6;
   transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
   -webkit-transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;

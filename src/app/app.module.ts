@@ -7,6 +7,7 @@ import { ProfileFooterComponent } from './components/Profile/profileFooter/profi
 import { ProfileComponent } from './components/Profile/profile.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
+import { LottieAnimationViewModule } from 'ng-lottie';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,8 @@ import { HomeComponent } from './components/home/home.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+        LottieAnimationViewModule.forRoot()
+
   ],
   providers: [],
   bootstrap: [AppComponent]
