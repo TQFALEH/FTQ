@@ -48,32 +48,44 @@
     color: #dbe9f6;
   }
 
-  input {
+  .form-control {
     width: 250px;
 border-radius: 0 0 0 1px;
     height: 45px;
     border-right: #5451d6 3px solid;
-    background-color: #5351d600;
+    background-color: transparent;
     color: #dbe9f6;
   }
-  input:focus, textarea:focus, select:focus{
-        outline: none;
-    }
-  input::placeholder {
+
+  .form-control::placeholder {
 
     padding: 10px;
     color: #5451d6;
-    background-color: #5351d600;
-  }
 
-  input:active {
+  }
+  .form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  border-right: #5451d6 3px solid;
+
+}
+  .form-control:active {
     border: #412da8 2px solid;
     color: #dbe9f6;
+
+
   }
-  input:checked {
+  .form-control:target {
     border: #412da8 2px solid;
     color: #dbe9f6;
+
+
   }
+  .form-control:focus, .form-control:active {
+    background: transparent;
+}
+
 </style>
 
 
