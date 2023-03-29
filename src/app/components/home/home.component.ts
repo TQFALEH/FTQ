@@ -11,35 +11,18 @@ export class HomeComponent {
   public lottieConfig: Object;
   public anim: any;
   public animationSpeed: number = 1;
-  constructor(private route :Router){
+  constructor(private route: Router) {
     this.lottieConfig = {
       path: './sukarah.json',
       renderer: 'canvas',
       autoplay: true,
       loop: true
+    }
   }
+  signUp() {
+    this.route.navigate(['signup'])
   }
-  toNext(){
-this.route.navigate(['profile'])
+  login() {
+    this.route.navigate(['login'])
   }
-  handleAnimation(anim: any) {
-    this.anim = anim;
-}
-
-stop() {
-    this.anim.stop();
-}
-
-play() {
-    this.anim.play();
-}
-
-pause() {
-    this.anim.pause();
-}
-
-setSpeed(speed: number) {
-    this.animationSpeed = speed;
-    this.anim.setSpeed(speed);
-}
 }

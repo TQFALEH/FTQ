@@ -1,0 +1,94 @@
+<div class="main-box d-flex justify-content-center align-content-center align-items-center">
+  <div class="auth  p-5">
+    <form (ngSubmit)="onSubmit()">
+      <div class="my-3">
+        <input placeholder=" اسم المستخدم" type="text" class="form-control" [(ngModel)]="name" name="name" />
+      </div>
+      <div class="my-3">
+        <input placeholder="بريدك الالكتروني" class="form-control" type="email" [(ngModel)]="email" name="email" />
+      </div>
+      <div> <button type="submit" class="my-5">سجل حسابك</button></div>
+    </form>
+  </div>
+
+</div>
+
+<style>
+  .auth {
+
+    padding: 40px;
+    border-radius: 9px;
+
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button {
+    margin-top: 1.2rem;
+    background-color: #412da8;
+    color: #dbe9f6;
+    padding: 9px 2rem;
+    bottom: 15rem;
+    border: none;
+    border-radius: 9px;
+    width: 300px;
+    height: 50px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+  }
+
+  label {
+    color: #dbe9f6;
+  }
+
+  input {
+    width: 250px;
+border-radius: 0 0 0 1px;
+    height: 45px;
+    border-right: #5451d6 3px solid;
+    background-color: #5351d600;
+    color: #dbe9f6;
+  }
+  input:focus, textarea:focus, select:focus{
+        outline: none;
+    }
+  input::placeholder {
+
+    padding: 10px;
+    color: #5451d6;
+    background-color: #5351d600;
+  }
+
+  input:active {
+    border: #412da8 2px solid;
+    color: #dbe9f6;
+  }
+  input:checked {
+    border: #412da8 2px solid;
+    color: #dbe9f6;
+  }
+</style>
+
+
+
+
+
+<style>
+  :root {
+    --main: #412da8;
+    --two: #5451d6;
+    --three: #dbe9f6;
+  }
+
+  .main-box {
+    background-color: #dbe9f6;
+    height: 100vh;
+  }
+</style>

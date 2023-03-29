@@ -3,18 +3,16 @@
     <div class="col-12">
       <iframe src="https://lottie.host/?file=61196c0c-4119-4cde-aaf8-15e899446625/GEyWTnE5qr.json"></iframe>
     </div>
-
-
     <div class="col-12 ">
       <div>
-        <h1 class="text-center mt-2">
+        <h1 class="text-center my-2">
           سكرة
         </h1>
-        <p>سكرة تقدم لك الاسهل لتنظيم مستوى سكرك بالدم ياسكر </p>
+        <p class="mt-2">سكرة تقدم لك الاسهل لتنظيم مستوى سكرك بالدم ياسكر </p>
       </div>
     </div>
-    <div class="col-12"> <button class="" (click)="toNext()" routerLink="profile"> سجل حسابك </button></div>
-    <p class="text-center p-1 mt-2">عندك حساب ؟ <a style="color: #412da8;cursor: pointer;" >سجل دخولك هنا </a> </p>
+    <div class="col-12"> <button class="" (click)="signUp()" routerLink="profile"> سجل حسابك </button></div>
+    <p class="text-center p-1 mt-2">عندك حساب ؟ <a (click)="login()" class="text-decoration-none" style="color: #412da8;cursor: pointer;">سجل دخولك هنا </a> </p>
   </div>
   <div class="footer position-absolute" style="bottom: 0;">
     <p class="text-center "> صنع للسكريين بأيدي <svg fill="#412da8" height="48" viewBox="0 0 48 48" width="30"

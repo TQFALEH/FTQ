@@ -8,6 +8,10 @@ import { ProfileComponent } from './components/Profile/profile.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { LottieAnimationViewModule } from 'ng-lottie';
+import { LoginComponent } from './components/auth/login/login.component';
+import { SignupComponent } from './components/auth/signup/signup.component';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -16,12 +20,14 @@ import { LottieAnimationViewModule } from 'ng-lottie';
     ProfileFooterComponent,
     ProfileComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-        LottieAnimationViewModule.forRoot()
+    FormsModule
 
   ],
   providers: [],

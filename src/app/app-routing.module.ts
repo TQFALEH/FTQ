@@ -4,9 +4,13 @@ import { UserComponent } from './components/Profile/profile-header/profileHeader
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './components/Profile/profile.component';
 import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/auth/login/login.component';
+import { SignupComponent } from './components/auth/signup/signup.component';
 const routes: Routes = [
   {path:'',redirectTo:'HomeComponent',pathMatch:'full'},
   { path: 'home', component: HomeComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'signup', component: SignupComponent },
   { path: 'profile', component: ProfileComponent }];
 
 @NgModule({
